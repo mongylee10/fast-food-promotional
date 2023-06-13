@@ -1,0 +1,233 @@
+<mjml>
+  <mj-body background-color="#f15e10">
+
+    // top navbar
+    <mj-section padding-bottom="30px" padding-top="5px">
+      <mj-column>
+        <mj-navbar>
+          <mj-navbar-link href="#" color="#ffffff" text-decoration="underline">
+            View In Browser
+          </mj-navbar-link>
+          <mj-navbar-link href="#" color="#ffffff" text-decoration="underline">
+            Unsubscribe
+          </mj-navbar-link>
+        </mj-navbar>
+      </mj-column>
+    </mj-section>
+
+    // logo
+    <mj-section padding-bottom="0px" padding-top="0px">
+      <mj-column>
+        <mj-image src="img/logo.png" alt="logo" width="120px" />
+      </mj-column>
+    </mj-section>
+
+    // hero image
+    <mj-section padding-bottom="0px" padding-top="0px">
+      <mj-column>
+        <mj-image src="img/mainimage2.png" alt="mega burger" padding-left="0px" padding-right="0px" padding-bottom="0px">
+      </mj-column>
+    </mj-section>
+
+    // hero button
+    <mj-section background-color="#f39663" padding-bottom="20px" padding-top="20px">
+      <mj-column>
+        <mj-button href="#" background-color="#ffffff" color="#f15e10" font-weight="bold" border-radius="30px" width="180px" font-size="18px">
+          ORDER NOW
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    // hero text
+    <mj-section background-color="#ffffff" padding-bottom="0px" padding-top="20px">
+      <mj-column width="450px">
+        <mj-text letter-spacing="5px" align="center" font-weight="bold" font-size="38px" color="#292929">
+          BURGER COMBO
+        </mj-text>
+        <mj-divider border-width="5px" width="180px" border-color="#f15e10" padding-top="5px"/>
+      </mj-column>
+    </mj-section>
+
+    // products-2 column
+    <mj-section padding-bottom="0px" padding-top="20px" background-color="#ffffff">
+      // first column
+      <mj-column vertical-align="bottom" width="250px" padding-top="20px" padding-bottom="50px" padding-left="10px" padding-right="10px">
+        <mj-image src="img/burger-1.png" width="200px" alt="beef burger" padding-left="0px" padding-right="0px" padding-bottom="0px" padding-top="0px" />
+        <mj-text align="center" font-size="18px" font-weight="bold" color="#292929">
+          BEEF BURGER
+        </mj-text>
+        <mj-text line-height="25px" align="center" font-size="16px" color="#292929">
+          Two beef patties topped with bacon and cheese, served on a sesame seed bun
+        </mj-text>
+        <mj-button href="#" font-size="16px" background-color="#f15e10" border-radius="30px" width="130px">
+          BUY NOW
+        </mj-button>
+      </mj-column>
+
+      // second column
+      <mj-column vertical-align="bottom" width="250px" padding-top="20px" padding-bottom="50px" padding-left="10px" padding-right="10px">
+        <mj-image src="img/burger-2.png" width="200px" alt="beef burger" padding-left="0px" padding-right="0px" padding-bottom="0px" padding-top="0px" />
+        <mj-text align="center" font-size="18px" font-weight="bold" color="#292929">
+          BEEF BURGER
+        </mj-text>
+        <mj-text line-height="25px" align="center" font-size="16px" color="#292929">
+          Two beef patties topped with bacon and cheese, served on a sesame seed bun
+        </mj-text>
+        <mj-button href="#" font-size="16px" background-color="#f15e10" border-radius="30px" width="130px">
+          BUY NOW
+        </mj-button>
+    </mj-section>
+
+    // products-2 column
+    <mj-section padding-bottom="20px" padding-top="0px" background-color="#ffffff">
+      // first column
+      <mj-column vertical-align="bottom" width="250px" padding-top="20px" padding-bottom="20px" padding-left="10px" padding-right="10px">
+        <mj-image src="img/burger-3.png" width="200px" alt="beef burger" padding-left="0px" padding-right="0px" padding-bottom="0px" padding-top="0px" />
+        <mj-text align="center" font-size="18px" font-weight="bold" color="#292929">
+          BEEF BURGER
+        </mj-text>
+        <mj-text line-height="25px" align="center" font-size="16px" color="#292929">
+          Two beef patties topped with bacon and cheese, served on a sesame seed bun
+        </mj-text>
+        <mj-button href="#" font-size="16px" background-color="#f15e10" border-radius="30px" width="130px">
+          BUY NOW
+        </mj-button>
+      </mj-column>
+
+      // second column
+      <mj-column vertical-align="top" width="250px" padding-top="20px" padding-bottom="20px" padding-left="10px" padding-right="10px">
+        <mj-image src="img/burger-4.png" width="200px" alt="beef burger" padding-left="0px" padding-right="0px" padding-bottom="0px" padding-top="0px" />
+        <mj-text align="center" font-size="18px" font-weight="bold" color="#292929">
+          BEEF BURGER
+        </mj-text>
+        <mj-text line-height="25px" align="center" font-size="16px" color="#292929">
+          Two beef patties topped with bacon and cheese, served on a sesame seed bun
+        </mj-text>
+        <mj-button href="#" font-size="16px" background-color="#f15e10" border-radius="30px" width="130px">
+          BUY NOW
+        </mj-button>
+    </mj-section>
+
+    // view more
+    <mj-section background-color="#ffffff" padding-bottom="30px" padding-top="0px">
+      <mj-column width="450px">
+        <mj-text align="center" font-weight="bold" font-size="16px" color="#292929">
+          <a href="#" style="text-decoration: none; color: inherit;">VIEW FOR MORE</a>
+        </mj-text>
+        <mj-divider border-width="3px" width="80px" border-color="#f15e10" padding-top="5px"/>
+      </mj-column>
+    </mj-section>
+
+    // cover image
+    <mj-section padding-bottom="0px" padding-top="0px" background-color="#f39663">
+      <mj-column>
+        <mj-image src="img/burger.png" alt="mega burger" padding-left="0px" padding-right="0px" padding-bottom="0px" padding-top="0px">
+      </mj-column>
+    </mj-section>
+
+    // download app-2 column
+    <mj-section padding-bottom="50px" padding-top="20px">
+      // first column
+      <mj-column width="35%" padding-top="20px" padding-bottom="0px" padding-left="10px" padding-right="10px">
+        <mj-image src="img/app_img.png" alt="beef burger" width="170px" padding-left="0px" padding-right="0px" padding-bottom="0px" padding-top="0px" />
+      </mj-column>
+
+      // second column
+      <mj-column width="65%" padding-top="25px" padding-left="20px" padding-right="0px" padding-bottom="0px">
+        <mj-text font-weight="bold" padding-left="0px" align="center" font-size="38px" color="#ffffff">
+          Get our app now
+        </mj-text>
+        <mj-text padding-left="0px" line-height="25px" align="center" font-size="16px" color="#ffffff">
+          Get instant access to exclusive deals, promotions, and rewards by downloading our app today.
+        </mj-text>
+        <mj-image align="center" src="img/download.png" alt="beef burger" width="250px" padding-left="0px" padding-right="0px" padding-bottom="0px" padding-top="10px" />
+      </mj-column>
+    </mj-section>
+
+    // coupon-2 column
+    <mj-section padding-bottom="20px" padding-top="30px" background-color="#ffffff">
+      // first column
+      <mj-column width="40%" padding-top="0px" padding-bottom="0px" padding-left="10px" padding-right="10px">
+        <mj-image src="img/coupon_img.png" border="5px solid #f15e10" alt="beef burger" padding-left="0px" padding-right="0px" padding-bottom="0px" padding-top="0px" />
+      </mj-column>
+
+      // second column
+      <mj-column width="60%" padding-top="0px" padding-left="0px" padding-right="0px" padding-bottom="0px">
+        <mj-text font-weight="bold" align="center" letter-spacing="5px" font-size="18px" color="#292929">
+          GET AN EXTRA
+        </mj-text>
+        <mj-text align="center" letter-spacing="5px" font-size="38px" font-weight="bold" color="#f15e10">
+          20% OFF
+        </mj-text>
+        <mj-text align="center" line-height="25px" font-size="16px" color="#292929">
+          On Chicken Special Combo, using the code 20OFFCS at checkout
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    // divider
+    <mj-section background-color="#ffffff" padding-bottom="0px">
+      <mj-column>
+        <mj-divider container-background-color="#292929" border-color="#DCDCDC" border-width="10px" border-style="dashed" padding-top="0px" padding-bottom="0px" padding-right="0px" padding-left="0px">
+      </mj-column>
+    </mj-section>
+
+    // logo
+    <mj-section padding-bottom="10px" padding-top="30px" background-color="#f39663">
+      <mj-column>
+        <mj-image src="img/logo.png" alt="logo" width="120px" />
+      </mj-column>
+    </mj-section>
+
+
+    // bottom navbar
+    <mj-section padding-bottom="0px" padding-top="0px" background-color="#f39663">
+      <mj-column>
+        <mj-navbar>
+          <mj-navbar-link href="#" color="#ffffff">
+            STORE LOCATION
+          </mj-navbar-link>&ensp;
+          <mj-navbar-link href="#" color="#ffffff">
+            MENU
+          </mj-navbar-link>&ensp;
+          <mj-navbar-link href="#" color="#ffffff">
+            BLOG
+          </mj-navbar-link>&ensp;
+          <mj-navbar-link href="#" color="#ffffff">
+            CONTACT US
+          </mj-navbar-link>
+        </mj-navbar>
+      </mj-column>
+    </mj-section>
+
+    // social-links
+    <mj-section background-color="#f39663" padding-bottom="0px" padding-top="0px">
+      <mj-column>
+        <mj-social font-size="15px" icon-size="30px" mode="horizontal">
+          <mj-social-element name="facebook" href="#">
+            <mj-image src="img/facebook.png" alt="facebook" />
+          </mj-social-element>
+          <mj-social-element name="instagram" href="#">
+            <mj-image src="img/instagram.png" alt="insagram" />
+          </mj-social-element>
+          <mj-social-element name="twitter" href="#">
+            <mj-image src="img/twitter.png" alt="twitter" />
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+
+    // footer text
+    <mj-section padding-bottom="40px" padding-top="0px">
+      <mj-column background-color="#f39663" padding-bottom="20px">
+        <mj-text align="center" line-height="15px" font-size="12px" color="#ffffff">
+          If you have questions regarding your data, please visit our
+          <a href="#" style="text-decoration: underline; color: inherit;">Privacy Policy</a>.
+          Want to change how you receive these emails? You can <a href="#" style="text-decoration: underline; color: inherit;">update your preferences</a> or <a href="#" style="text-decoration: underline; color: inherit;">unsubscribe</a> from this list.</br>
+          @2023 Your Brand. All Rights Reserved.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
